@@ -57,21 +57,18 @@ body {
 .container-content {
     background-color: rgb(241 242 246);
     height: 70vh;
-    width: 70%;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
 }
-
 .title {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10%;
-    width: 40%;
-    margin: 1px 0px;
 }
-
 .title h1 {
     color: #252B48;
     font-family: 'Roboto Mono', sans-serif;
@@ -85,7 +82,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 98%;
+    width: 70%;
     height: 80%;
     gap: 10px;
 }
@@ -132,6 +129,7 @@ article h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .content-aside {
